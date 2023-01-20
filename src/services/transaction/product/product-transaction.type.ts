@@ -1,8 +1,7 @@
 type itemTransaction = {
     sku: string,
     type: string,
-    qty: number,
-    isProcessed?: boolean
+    qty: number
 }
 
 export {itemTransaction}
